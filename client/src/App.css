@@ -1,0 +1,48 @@
+/* Center the content and provide a background */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+.app-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.ticks-table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.ticks-table thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.ticks-table th, .ticks-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.ticks-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.ticks-table tr:hover {
+  background-color: #ddd;
+}
+
+
+.spike {
+  background-color: #ffeb3b;
+}
